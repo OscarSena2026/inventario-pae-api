@@ -76,7 +76,7 @@ URL base: `http://localhost:8080`
 | POST | `/api/empleados` | Crear empleado | 201 | 400 · 404 | Soporte |
 | PUT | `/api/empleados/{id}` | Actualizar empleado | 200 | 400 · 404 | Soporte |
 | DELETE | `/api/empleados/{id}` | Eliminar empleado | 204 | 404 · 409 | Soporte |
-| GET | `/api/proveedores` | Listar proveedors | 200 | — | HU-03 |
+| GET | `/api/proveedores` | Listar Proveedores | 200 | — | HU-03 |
 | GET | `/api/proveedores/{id}` | Consultar proveedor por id | 200 | 404 | HU-03 |
 | POST | `/api/proveedores` | Crear proveedor | 201 | 400 · 404 · 409 | HU-03 |
 | PUT | `/api/proveedores/{id}` | Actualizar proveedor | 200 | 400 · 404 · 409 | HU-03 |
@@ -338,11 +338,11 @@ Personas que registran las entradas y salidas de bodega. Catalogo de apoyo para 
   - `404 Not Found` el empleado no existe
   - `409 Conflict` tiene registros relacionados y no puede eliminarse
 
-### Proveedors — recurso `/api/proveedores`
+### Proveedores — recurso `/api/proveedores`
 
 Empresas que suministran los insumos al programa PAE. Se asocian a lotes y entradas (HU-03).
 
-#### Listar proveedors
+#### Listar Proveedores
 
 - **Descripción:** Consulta empresas que suministran los insumos al programa pae.
 - **Método y URL:** `GET /api/proveedores`
