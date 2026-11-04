@@ -68,17 +68,17 @@ URL base: `http://localhost:8080`
 | PUT | `/api/usuarios/{id}/activar` | Activar un usuario | 200 | 404 | HU-07 |
 | GET | `/api/municipios` | Listar municipios | 200 | — | Soporte |
 | GET | `/api/municipios/{id}` | Consultar municipio por id | 200 | 404 | Soporte |
-| POST | `/api/municipios` | Crear municipio | 201 | 400 · 404 · 409 | Soporte |
+| POST | `/api/municipios` | Crear municipio | 201 | 400 · 409 | Soporte |
 | PUT | `/api/municipios/{id}` | Actualizar municipio | 200 | 400 · 404 · 409 | Soporte |
 | DELETE | `/api/municipios/{id}` | Eliminar municipio | 204 | 404 · 409 | Soporte |
 | GET | `/api/empleados` | Listar empleados | 200 | — | Soporte |
 | GET | `/api/empleados/{id}` | Consultar empleado por id | 200 | 404 | Soporte |
-| POST | `/api/empleados` | Crear empleado | 201 | 400 · 404 | Soporte |
+| POST | `/api/empleados` | Crear empleado | 201 | 400 | Soporte |
 | PUT | `/api/empleados/{id}` | Actualizar empleado | 200 | 400 · 404 | Soporte |
 | DELETE | `/api/empleados/{id}` | Eliminar empleado | 204 | 404 · 409 | Soporte |
 | GET | `/api/proveedores` | Listar proveedores | 200 | — | HU-03 |
 | GET | `/api/proveedores/{id}` | Consultar proveedor por id | 200 | 404 | HU-03 |
-| POST | `/api/proveedores` | Crear proveedor | 201 | 400 · 404 · 409 | HU-03 |
+| POST | `/api/proveedores` | Crear proveedor | 201 | 400 · 409 | HU-03 |
 | PUT | `/api/proveedores/{id}` | Actualizar proveedor | 200 | 400 · 404 · 409 | HU-03 |
 | DELETE | `/api/proveedores/{id}` | Eliminar proveedor | 204 | 404 · 409 | HU-03 |
 | GET | `/api/bodegas` | Listar bodegas | 200 | — | HU-03/04 |
@@ -93,7 +93,7 @@ URL base: `http://localhost:8080`
 | DELETE | `/api/sedes/{id}` | Eliminar sede | 204 | 404 · 409 | HU-04 |
 | GET | `/api/productos` | Listar productos (filtros nombre y categoría) | 200 | — | HU-02/05/08 |
 | GET | `/api/productos/{id}` | Consultar producto por id | 200 | 404 | HU-02/05/08 |
-| POST | `/api/productos` | Crear producto | 201 | 400 · 404 | HU-02/05/08 |
+| POST | `/api/productos` | Crear producto | 201 | 400 | HU-02/05/08 |
 | PUT | `/api/productos/{id}` | Actualizar producto | 200 | 400 · 404 | HU-02/05/08 |
 | DELETE | `/api/productos/{id}` | Eliminar producto | 204 | 404 · 409 | HU-02/05/08 |
 | GET | `/api/lotes` | Listar lotes | 200 | — | HU-03 |
