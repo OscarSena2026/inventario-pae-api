@@ -76,7 +76,7 @@ URL base: `http://localhost:8080`
 | POST | `/api/empleados` | Crear empleado | 201 | 400 · 404 | Soporte |
 | PUT | `/api/empleados/{id}` | Actualizar empleado | 200 | 400 · 404 | Soporte |
 | DELETE | `/api/empleados/{id}` | Eliminar empleado | 204 | 404 · 409 | Soporte |
-| GET | `/api/proveedores` | Listar Proveedores | 200 | — | HU-03 |
+| GET | `/api/proveedores` | Listar proveedores | 200 | — | HU-03 |
 | GET | `/api/proveedores/{id}` | Consultar proveedor por id | 200 | 404 | HU-03 |
 | POST | `/api/proveedores` | Crear proveedor | 201 | 400 · 404 · 409 | HU-03 |
 | PUT | `/api/proveedores/{id}` | Actualizar proveedor | 200 | 400 · 404 · 409 | HU-03 |
@@ -248,7 +248,7 @@ Municipios donde operan las bodegas y las sedes educativas. Catalogo de apoyo pa
 
 #### Actualizar municipio
 
-- **Descripción:** Modifica los datos de el municipio.
+- **Descripción:** Modifica los datos del municipio.
 - **Método y URL:** `PUT /api/municipios/{id}`
 - **Body (JSON):**
 
@@ -312,7 +312,7 @@ Personas que registran las entradas y salidas de bodega. Catalogo de apoyo para 
 
 #### Actualizar empleado
 
-- **Descripción:** Modifica los datos de el empleado.
+- **Descripción:** Modifica los datos del empleado.
 - **Método y URL:** `PUT /api/empleados/{id}`
 - **Body (JSON):**
 
@@ -342,7 +342,7 @@ Personas que registran las entradas y salidas de bodega. Catalogo de apoyo para 
 
 Empresas que suministran los insumos al programa PAE. Se asocian a lotes y entradas (HU-03).
 
-#### Listar Proveedores
+#### Listar proveedores
 
 - **Descripción:** Consulta empresas que suministran los insumos al programa pae.
 - **Método y URL:** `GET /api/proveedores`
@@ -379,7 +379,7 @@ Empresas que suministran los insumos al programa PAE. Se asocian a lotes y entra
 
 #### Actualizar proveedor
 
-- **Descripción:** Modifica los datos de el proveedor.
+- **Descripción:** Modifica los datos del proveedor.
 - **Método y URL:** `PUT /api/proveedores/{id}`
 - **Body (JSON):**
 
@@ -580,7 +580,7 @@ Insumos alimentarios del inventario PAE: registro (HU-02), consulta con filtros 
 
 #### Actualizar producto
 
-- **Descripción:** Modifica los datos de el producto.
+- **Descripción:** Modifica los datos del producto.
 - **Método y URL:** `PUT /api/productos/{id}`
 - **Body (JSON):**
 
@@ -650,7 +650,7 @@ Lotes de producto recibidos de un proveedor, con su fecha de vencimiento (HU-03 
 
 #### Actualizar lote
 
-- **Descripción:** Modifica los datos de el lote.
+- **Descripción:** Modifica los datos del lote.
 - **Método y URL:** `PUT /api/lotes/{id}`
 - **Body (JSON):**
 
