@@ -1,0 +1,40 @@
+/* Estilos propios: complementan a Bootstrap con los colores del Sistema de Inventario PAE.
+   Paleta tomada del diseño de la GA6-AA4-EV03: azul marino institucional y verde de estado. */
+:root {
+  --pae-azul: #1f3b57;
+  --pae-verde: #15803d;
+  --font-titulo: 'Poppins', 'Segoe UI', sans-serif;
+  --font-cuerpo: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+  font-family: var(--font-cuerpo);
+}
+
+h2, h3, h5, .navbar-brand {
+  font-family: var(--font-titulo);
+  color: var(--pae-azul);
+}
+
+.barra-pae {
+  background-color: var(--pae-azul);
+}
+
+.barra-pae .navbar-brand {
+  color: #ffffff;
+}
+
+.barra-pae .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.barra-pae .nav-link:hover,
+.barra-pae .nav-link.active {
+  color: #ffffff;
+}
+
+.btn-success {
+  background-color: var(--pae-verde);
+  border-color: var(--pae-verde);
+}
